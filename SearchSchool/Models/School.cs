@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace SearchSchool.Models
 {
+    /// <summary>
+    /// School Model
+    /// </summary>
     public class School
     {
         // _id

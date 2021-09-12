@@ -5,6 +5,12 @@
     <Configurations>Debug;Release;development</Configurations>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\development\personal\codehb\git\SearchSchool-API\SearchSchool\SearchSchool.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="GeoCoordinate.NetStandard1" Version="1.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />

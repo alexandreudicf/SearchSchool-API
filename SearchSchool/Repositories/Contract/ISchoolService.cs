@@ -1,4 +1,5 @@
-﻿using SearchSchool.Models;
+﻿using SearchSchool.DTO;
+using SearchSchool.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace SearchSchool.Repositories.Contract
     {
         Task<List<School>> Get(int? limit);
         Task<List<School>> GetNearByLocation(decimal longitude, decimal latitude);
-        Task<List<School>> GetSchoolFromRadius(double latitude, double longitude, double distanceLimit);
+        Task<List<School>> GetSchoolFromRadius(SchoolFilterDTO schoolFilterDTO);
     }
 }

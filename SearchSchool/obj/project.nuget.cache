@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WPAaHVK+KL5KaULw5llm2REmnKP9KKh/ElQzy8ezvQpZ1/NvznfpilFQbb5BmoqelmBP23nXqnSJszbl3dtgoQ==",
+  "dgSpecHash": "7JGKMmLESaRiSF4o8+F40Hs+GKvrOyWBRJOrVj8FFQimrLayM3LA/49Qp2tec/JllDqi+/C5AoBrQaNX+9XRSg==",
   "success": true,
-  "projectFilePath": "D:\\development\\personal\\codehb\\SearchSchool\\SearchSchool\\SearchSchool.csproj",
+  "projectFilePath": "D:\\development\\personal\\codehb\\git\\SearchSchool-API\\SearchSchool\\SearchSchool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\geocoordinate.netstandard1\\1.0.1\\geocoordinate.netstandard1.1.0.1.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SearchSchool.DTO;
 using SearchSchool.Models;
 using SearchSchool.Repositories.Contract;
 using System;
@@ -26,7 +27,7 @@ namespace SearchSchool.Controllers
         }
 
         /// <summary>
-        /// Get All or based on the limit param.
+        /// Get all schools or filter by limit param.
         /// </summary>
         /// <param name="limit"></param>
         /// <returns></returns>
@@ -39,14 +40,12 @@ namespace SearchSchool.Controllers
         /// <summary>
         /// Get Schools Near by Me(Default is 3KM radius)
         /// </summary>
-        /// <param name="latitude"></param>
-        /// <param name="longitude"></param>
-        /// <param name="distance"></param>
+        /// <param name="schoolFilter"></param>
         /// <returns></returns>
         [HttpGet("near-me")]
-        public Task<List<School>> GetSchoolNearByMe([FromQuery, Required] double latitude, [FromQuery, Required] double longitude, [FromQuery] int? distance)
+        public Task<List<School>> GetSchoolNearByMe([FromQuery, Required] SchoolFilterDTO schoolFilter)
         {
-            return _schoolService.GetSchoolFromRadius(latitude, longitude, distance == null ? 3000 : distance.GetValueOrDefault() * 1000);
+            return _schoolService.GetSchoolFromRadius(schoolFilter);
         }
     }
 }

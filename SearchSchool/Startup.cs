@@ -14,6 +14,7 @@ using SearchSchool.Repositories.Contract;
 using SearchSchool.Settings;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -44,6 +45,10 @@ namespace SearchSchool
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SearchSchool", Version = "v1" });
+
+
+                string filePath = Path.Combine(AppContext.BaseDirectory, "SearchSchool.xml");
+                c.IncludeXmlComments(filePath);
             });
 
             services.ConfigureCors();

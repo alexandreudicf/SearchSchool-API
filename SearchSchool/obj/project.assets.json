@@ -4749,11 +4749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\development\\personal\\codehb\\SearchSchool\\SearchSchool\\SearchSchool.csproj",
+      "projectUniqueName": "D:\\development\\personal\\codehb\\git\\SearchSchool-API\\SearchSchool\\SearchSchool.csproj",
       "projectName": "SearchSchool",
-      "projectPath": "D:\\development\\personal\\codehb\\SearchSchool\\SearchSchool\\SearchSchool.csproj",
+      "projectPath": "D:\\development\\personal\\codehb\\git\\SearchSchool-API\\SearchSchool\\SearchSchool.csproj",
       "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "D:\\development\\personal\\codehb\\SearchSchool\\SearchSchool\\obj\\",
+      "outputPath": "D:\\development\\personal\\codehb\\git\\SearchSchool-API\\SearchSchool\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",

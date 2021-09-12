@@ -1,0 +1,15 @@
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\SearchSchool.exe
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\appsettings.json
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\appsettings.Production.json
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\SearchSchool.dll
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\SearchSchool.deps.json
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\SearchSchool.runtimeconfig.json
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\SearchSchool.pdb
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\GeoCoordinate.NetStandard1.dll
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\development\personal\codehb\SearchSchool\SearchSchool\obj\Release\net5.0\PubTmp\Out\System.Text.Json.dll

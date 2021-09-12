@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchSchool", "SearchSchool\SearchSchool.csproj", "{6228462F-C36C-4763-8082-7CAEA261A03B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		development|Any CPU = development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6228462F-C36C-4763-8082-7CAEA261A03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6228462F-C36C-4763-8082-7CAEA261A03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6228462F-C36C-4763-8082-7CAEA261A03B}.development|Any CPU.ActiveCfg = development|Any CPU
+		{6228462F-C36C-4763-8082-7CAEA261A03B}.development|Any CPU.Build.0 = development|Any CPU
+		{6228462F-C36C-4763-8082-7CAEA261A03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6228462F-C36C-4763-8082-7CAEA261A03B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDB49195-F976-4004-8511-CA2B3762CE3A}
+	EndGlobalSection
+EndGlobal

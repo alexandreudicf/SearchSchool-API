@@ -1,0 +1,223 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "SearchSchool",
+    "version": "v1"
+  },
+  "paths": {
+    "/School": {
+      "get": {
+        "tags": [
+          "School"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "limit",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/School"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/School/near-me": {
+      "get": {
+        "tags": [
+          "School"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "latitude",
+            "required": true,
+            "type": "number",
+            "format": "double"
+          },
+          {
+            "in": "query",
+            "name": "longitude",
+            "required": true,
+            "type": "number",
+            "format": "double"
+          },
+          {
+            "in": "query",
+            "name": "distance",
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/School"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "School": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "dataExtracao": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "depAdministrativa": {
+          "type": "string"
+        },
+        "tipo": {
+          "type": "string"
+        },
+        "codigo": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "inep": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nome": {
+          "type": "string"
+        },
+        "abrNome": {
+          "type": "string"
+        },
+        "logradouro": {
+          "type": "string"
+        },
+        "numero": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "bairro": {
+          "type": "string"
+        },
+        "cep": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "latitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "longitude": {
+          "format": "double",
+          "type": "number"
+        },
+        "telefone": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "urlWebsite": {
+          "type": "string"
+        },
+        "blog": {
+          "type": "string"
+        },
+        "twitter": {
+          "type": "string"
+        },
+        "facebook": {
+          "type": "string"
+        },
+        "regConselhoTutelar": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "descRegConselhoTutelar": {
+          "type": "string"
+        },
+        "regPrcamentoPart": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "descRegOrcamentoPart": {
+          "type": "string"
+        },
+        "situacaoFuncionamento": {
+          "type": "string"
+        },
+        "convenioMunicipal": {
+          "type": "string"
+        },
+        "convenioEstadual": {
+          "type": "string"
+        },
+        "convenioFederal": {
+          "type": "string"
+        },
+        "convenioFasc": {
+          "type": "string"
+        },
+        "escolaEspecial": {
+          "type": "string"
+        },
+        "catPartPrivada": {
+          "type": "string"
+        },
+        "catPartComunitaria": {
+          "type": "string"
+        },
+        "catPartConfessional": {
+          "type": "string"
+        },
+        "catPartFilantropica": {
+          "type": "string"
+        },
+        "mantEmpresaPrivada": {
+          "type": "string"
+        },
+        "mantSindicato": {
+          "type": "string"
+        },
+        "mantSistemaS": {
+          "type": "string"
+        },
+        "mantOng": {
+          "type": "string"
+        },
+        "mantApae": {
+          "type": "string"
+        },
+        "distance": {
+          "format": "double",
+          "type": "number"
+        }
+      }
+    }
+  }
+}

@@ -12,6 +12,7 @@ using SearchSchool.Models;
 using SearchSchool.Repositories;
 using SearchSchool.Repositories.Contract;
 using SearchSchool.Settings;
+using Microsoft.Extensions.PlatformAbstractions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -49,6 +50,12 @@ namespace SearchSchool
 
                 string filePath = Path.Combine(AppContext.BaseDirectory, "SearchSchool.xml");
                 c.IncludeXmlComments(filePath);
+
+                string appPath = PlatformServices.Default.Application.ApplicationBasePath;
+                string appName = PlatformServices.Default.Application.ApplicationName;
+                string pathXmlDoc = Path.Combine(appPath, $"{appName}.xml");
+
+                c.IncludeXmlComments(pathXmlDoc);
             });
 
             services.ConfigureCors();
